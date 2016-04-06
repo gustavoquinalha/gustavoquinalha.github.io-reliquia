@@ -9,8 +9,8 @@
 title: gustavoquinalha
 email: gustavo_quinalha@hotmail.com
 description: > # blog utilizando jekyll teste.
-baseurl: "/jekyll" 
-url: "http://gustavoquinalha.com" 
+baseurl: "/myblog" 
+url: "http://gustavoquinalha.com"
 twitter_username: gustavoquinalha
 github_username:  gustavoquinalha
 
