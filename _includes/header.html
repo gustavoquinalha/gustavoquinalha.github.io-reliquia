@@ -1,0 +1,15 @@
+<div class="" style="padding-top:50px; padding-bottom:0px;  width:100%;">
+    <header class="masthead" style="padding:0; margin:0">
+      <div class="container" style="padding:0;">
+          <h1 class="masthead-title" style="">
+          <a href="{{ site.baseurl }}/">{{ site.title }}<span>&#39;s blog</span></a>
+        </h1>
+        <nav class="masthead-nav">
+          {% for page in site.pages %}
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endfor %}
+        </nav>
+        </div>
+      </div>  
+    </header>
+</div>
