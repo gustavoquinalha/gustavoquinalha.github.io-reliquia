@@ -297,6 +297,15 @@ html {
     }
 }
 @media only screen and (max-width: 500px) {
+	.menu {
+		width: 100%;
+		background: #fff!important
+	}
+
+	.menu-rel {
+		width: 100%;
+		background: #fff!important
+	}
 	.menu-hamburguer {
 		display: block
 	}
@@ -313,17 +322,10 @@ html {
     .menu-list-item a:focus {
         font-size: 22px!important;
     }
-    .menu {
-		width: 100%;
-		background: #fff
-	}
-
-	.menu-rel {
-		width: 100%;
-		background: #fff
-	}
+    
 
 }
+
 .fundo-teste2 {
     background: #fff;
     width: 100%;
