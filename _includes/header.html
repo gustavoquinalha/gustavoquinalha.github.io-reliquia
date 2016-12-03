@@ -1,45 +1,44 @@
 <form>
   <div class="menu-rel">
     <div class="menu">
-     <div class="menu-opcoes">
-     </div>
-
      <div class="menu-hamburguer">
-   <input type="checkbox" value="selected" id="menu-hamburguer" class="menu-input">
-   <label for="menu-hamburguer" class="menu-label">
-     <img src="http://svgshare.com/i/Jj.svg">
-   </label>
-   <div role="menu" id="menuid" class="menu-content">
-    <div class="menu-list">
-     <div class="menu-list-item fechar-lado">
-      <button class="fechar" type="reset">
-        fechar
-      </button>
+       <input type="checkbox" value="selected" id="menu-hamburguer" class="menu-input">
+       <label for="menu-hamburguer" class="menu-label">
+         <img src="http://svgshare.com/i/Jj.svg">
+       </label>
+       <div role="menu" id="menuid" class="menu-content">
+        <div class="menu-list">
+         <div class="menu-list-item fechar-lado">
+          <button class="fechar" type="reset">
+            fechar
+          </button>
+        </div>
+        <div class="menu-list-item">
+          <a href="#">
+            {% for page in site.pages %}
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><br>
+            {% endfor %}
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="menu-list-item"><a href="#">
+  </div>
+
+  <div class="menu-logo">
+    <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.png" class="classe-logo"></a>
+  </div>
+
+  <div class="menu-principal">
+    <ul>
+     <li><a href="javascript:void(0);">
       {% for page in site.pages %}
-      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><br>
+      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
       {% endfor %}
-    </a></div>
-  </div>
+    </a></li>
+  </ul>
 </div>
-</div>
 
-     <div class="menu-logo">
-        <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </div>
 
-    <div class="menu-principal">
-      <ul>
-       <li><a href="javascript:void(0);">
-        {% for page in site.pages %}
-        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endfor %}
-      </a></li>
-    </ul>
-  </div>
-
-  
 </div>
 </div>
 </form>

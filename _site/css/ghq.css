@@ -3,6 +3,9 @@
 	margin:0 auto;
 	padding: 0;
 }
+a {
+	color: #2b2929
+}
 
 
 html {
@@ -37,21 +40,37 @@ html {
 	margin-bottom: 5px;
 	text-align:center;
 	overflow: hidden;
+	border:5px solid #2b2929;
 }
 .portoflio-titulo {
 	width: 300px;
 	margin-bottom: 5px;
-	text-align:left
+	text-align:left;
+	transition:2s;
 }
 
 .portoflio-titulo a{
-	color: #000;
-	opacity: 0.8;
+	color: #383535;
 	text-decoration: none;
 }
 
 .portfolio-img {
+	position: relative;
 	width: 100%!important;
+	-webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+}
+
+.portfolio-img:hover{
+	width: 100%!important;
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center
 }
 
 @media only screen and (max-width: 400px) {
@@ -68,7 +87,11 @@ html {
 	height: 370px;
 	margin:0 auto;
 	margin-bottom: 5px;
-
+	border:none;
+	}
+	.portoflio-titulo {
+		width: 98%;
+		padding-left: 2px;
 	}
 }
 
@@ -102,22 +125,32 @@ html {
 
 
 
+
+
+
+
+
+
+
+.menu-rel{
+  width: 90%;
+  margin:0 auto;
+  position:relative;
+  height: 100px;
+}
+
 .menu {
     position: fixed;
     z-index: 2;
-    width: 100%;
+    width: 90%;
     height: 80px;
-    background: #fff;
     display: flex;
     flex-wrap: no-wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
-.menu-rel{
-  position:relative;
-  height: 100px;
-}
+
 .menu-hamburguer {
     max-height: 100%;
     display: none
@@ -140,6 +173,11 @@ html {
 .menu-logo {
     flex-grow: 1;
     margin-left: 20px;
+    padding-top: 10px;
+}
+
+.classe-logo {
+	width: 70px;
 }
 .menu-principal {
     flex-grow: 100;
@@ -155,13 +193,12 @@ html {
 .menu-principal ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #000;
-    opacity: 0.5;
-    margin-right: 20px;
+    color: #383535;
     transition: 0.5s;
     borde-color: #ae4bcf;
     font-size: 14px;
-  font-weight:900
+  font-weight:900;
+  margin-left: 20px;
 }
 .menu-label {
     font-size: 1em;
@@ -216,7 +253,7 @@ html {
     font-family: 'Bree Serif', serif;
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: #383535;
     font-size: 40px;
     text-decoration: none;
     transition: 0.6s;
@@ -275,6 +312,10 @@ html {
     .menu-list-item a:focus {
         font-size: 22px!important;
     }
+    .menu-rel{
+	  width: 100%;
+	}
+
 }
 .fundo-teste2 {
     background: #fff;
