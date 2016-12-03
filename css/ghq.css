@@ -40,7 +40,6 @@ html {
 	margin-bottom: 5px;
 	text-align:center;
 	overflow: hidden;
-	border:5px solid #2b2929;
 }
 .portoflio-titulo {
 	width: 300px;
@@ -74,6 +73,13 @@ html {
 }
 
 @media only screen and (max-width: 400px) {
+	.menu {
+		width: 100%;
+	}
+
+	.menu-rel {
+		width: 100%;
+	}
 	.size {
 		width: 100%;
 	}
