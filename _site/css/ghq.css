@@ -73,13 +73,7 @@ html {
 }
 
 @media only screen and (max-width: 400px) {
-	.menu {
-		width: 100%;
-	}
 
-	.menu-rel {
-		width: 100%;
-	}
 	.size {
 		width: 100%;
 	}
@@ -319,8 +313,14 @@ html {
     .menu-list-item a:focus {
         font-size: 22px!important;
     }
-    .menu-rel{
-	  width: 100%;
+    .menu {
+		width: 100%;
+		background: #fff
+	}
+
+	.menu-rel {
+		width: 100%;
+		background: #fff
 	}
 
 }
