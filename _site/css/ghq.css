@@ -309,6 +309,10 @@ html {
     text-align: center;
 }
 
+.port img{
+    width: 100%;
+}
+
 @media only screen and (max-width: 400px) {
 	.size {
         width: 100%;
