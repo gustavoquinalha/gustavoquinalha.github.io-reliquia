@@ -10,11 +10,11 @@ title: gustavoquinalha
 email: gustavo_quinalha@hotmail.com
 description: > # blog utilizando jekyll teste.
 baseurl: "" 
-url: "https://gustavoquinalha.github.io/"
+url: "https://gustavoquinalha.github.io"
 twitter_username: gustavoquinalha
 github_username:  gustavoquinalha
 
 # Build settings
 markdown: kramdown
 # permalink: /:categories/:year/:month/:day/:title
-permalink: /:categories/:month/:day/:title
+permalink: /:year/:title
