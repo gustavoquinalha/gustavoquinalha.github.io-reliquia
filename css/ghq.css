@@ -54,17 +54,16 @@ html {
 .portfolio-img {
     position: relative;
     width: 100%!important;
-    -webkit-filter: grayscale(50%);
-    /* Safari 6.0 - 9.0 */
-    
-    filter: grayscale(50%);
-}
-.portfolio-img:hover {
-    width: 100%!important;
     -webkit-filter: grayscale(0%);
     /* Safari 6.0 - 9.0 */
     
     filter: grayscale(0%);
+}
+.portfolio-img:hover {
+    width: 100%!important;
+    -webkit-filter: grayscale(30%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(30%);
 }
 .footer {
     padding-top: 50px;
