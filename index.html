@@ -10,11 +10,12 @@ layout: default
 	
 	<div class="flex-item">
 		<a href="{{ post.url | prepend: site.baseurl }}">
-		<div class="portoflio">
+		<div class="portfolio">
 			<img src="images/pa.jpg" class="portfolio-img">
 		</div>
-		<div class="portoflio-titulo">
-			{{ post.title }} - <time>{{ post.date | date_to_string }}</time>
+		<div class="portfolio-titulo">
+			<h2>{{ post.title }}</h2>
+			<time>{{ post.date | date_to_string }}</time>
 		</div>
 		</a>
 			

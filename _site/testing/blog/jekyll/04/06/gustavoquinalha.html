@@ -7,6 +7,12 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href=/myblog/css/ghq.css>
 
+  	<meta property="og:url"           content="https://gustavoquinalha.github.io/" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Portfólio Gustavo Quinalha" />
+	<meta property="og:description"   content="Your description" />
+	<meta property="og:image"         content="https://gustavoquinalha.github.io/images/logo.png" />
+
 </head>
 
 <body>
@@ -83,13 +89,29 @@
 <article class="content post">
 	<h1 class="post-title">gustavoquinalha</h1>
 	<div class="post-date">
-		<time style="color:red">06 Apr 2016</time>
-		<span class="reading-time"> - 1 minute to read</span>
+		<time style="opacity:0.5">06 Apr 2016</time>
+	</div>
+
+	<div class="compartilhar">
+		<!-- Load Facebook SDK for JavaScript -->
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
+			<!-- Your share button code -->
+			<div class="fb-share-button" 
+				data-href="http://gustavoquinalha.com/myblog/testing/blog/jekyll/04/06/gustavoquinalha" 
+				data-layout="button_count">
+			</div>
 	</div>
 
 
-	<img src="http://www.marvelipsum.com/650/650/deadpool">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
