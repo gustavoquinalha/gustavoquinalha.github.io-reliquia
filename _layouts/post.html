@@ -5,22 +5,22 @@ layout: default
 
 <article class="content post">
 	<h1 class="post-title">{{ page.title }}</h1>
-	<div class="post-date">
-		<time style="opacity:0.5">{{ page.date | date_to_string }}</time> - {{ site.url }}{{ site.baseurl }}{{ page.url }}
-	</div>
+		<time class="post-date">{{ page.date | date_to_string }}</time>
 
-	<div class="tags">
-		{% for category in page.categories %}
-			<span>{{ category }}</span>
-		{% endfor %}				
-	</div>
+	
 
 	<div class="port">
 		<img src="{{ site.url }}{{ site.baseurl }}/images{{ page.image }}">
 	</div>
+	<div class="tags">
+		{% for category in page.categories %}
+			<span>{{ category }}</span>
+		{% endfor %}
+		<br>{{ site.url }}{{ site.baseurl }}{{ page.url }}<br>				
+	</div>
 
 	{{ content }}
-
+		
 	<div class="comments">
 		<div id="disqus_thread"></div>
 			<script>
