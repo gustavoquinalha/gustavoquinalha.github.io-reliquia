@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% include minutes-to-read.html %}
+
 
 <article class="content post">
 	<h1 class="post-title">{{ page.title }}</h1>
@@ -9,22 +9,10 @@ layout: default
 		<time style="opacity:0.5">{{ page.date | date_to_string }}</time>
 	</div>
 
-	<div class="compartilhar">
-		<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-
-	<!-- Your share button code -->
-	<div class="fb-share-button" 
-		data-href="http://www.your-domain.com/your-page.html" 
-		data-layout="button_count">
-	</div>
-
+	<div class="tags">
+		{% for category in page.categories %}
+			<span>{{ category }}</span>
+		{% endfor %}				
 	</div>
 
 
