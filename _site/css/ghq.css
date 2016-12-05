@@ -44,11 +44,15 @@ html {
 }
 .portfolio-titulo h2 {
     color: #383535;
+    opacity: 0.8;
+    font-size: 14px;
     padding: 0!important;
+    margin: 0;
 }
 .portfolio-titulo time {
-    opacity: 0.8;
-    font-size: 12px;
+    opacity: 0.7;
+    font-size: 10px;
+
 }
 
 .portfolio-img {
@@ -326,6 +330,18 @@ html {
 
 .port img{
     width: 100%;
+}
+
+.categoria {
+  padding-bottom: 50px;
+}
+
+.titulo-categoria {
+  text-align: left;
+  width: 100%;
+  font-size: 16px;
+  padding-bottom: 10px;
+  opacity: 0.7;
 }
 
 @media only screen and (max-width: 400px) {
