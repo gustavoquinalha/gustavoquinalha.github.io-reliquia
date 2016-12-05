@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: gustavoquinalha
+title: Portfólio Gustavo Quinalha
 email: gustavo_quinalha@hotmail.com
 description: > # blog utilizando jekyll teste.
-baseurl: "" 
+baseurl: ""
 url: "https://gustavoquinalha.github.io"
 twitter_username: gustavoquinalha
 github_username:  gustavoquinalha
