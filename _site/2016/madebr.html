@@ -3,15 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="googlebot" content="noodp" />
+  <meta name="googlebot-news" content="nosnippet">
+  <meta name="robots" content="index, follow" />
+  <meta name="copyright" content="Copyright &copy; Gustavo Quinalha. Todos os direitos reservados." />
+
+  <meta property="og:image" content="https://gustavoquinalha.com/images/mor.jpg" />
+  <meta property="og:title" content="Portfólio Gustavo Quinalha" />
+  <meta property="og:url" content="https://gustavoquinalha.com/" />
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Portfólio Gustavo Quinalha">
+  <meta property="og:description" content="Gustavo Quinalha - Web Developer & Designer Gráfico. Confira todos os meus trabalhos." />
+
+  <meta name="description" content="Gustavo Quinalha - Web Developer & Designer Gráfico. Confira todos os meus trabalhos">
+  <meta name="author" content="Gustavo Quinalha">
   <title>Made in BR</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href=/css/ghq.css>
 
-  <meta property="og:url"           content="https://gustavoquinalha.com/" />
-	<meta property="og:type"          content="website" />
-	<meta property="og:title"         content="Portfólio Gustavo Quinalha" />
-	<meta property="og:description"   content="Gustavo Quinalha - Web Developer & Designer Gráfico. Confira todos os meus trabalhos" />
-	<meta property="og:image"         content="https://gustavoquinalha.com/images/mor.jpg" />
 
 </head>
 
@@ -96,7 +105,28 @@
 			<span>illustration</span>
 		
 		<br><br>
-		<a target="_blank" href="http://www.facebook.com/sharer.php?u=http://gustavoquinalha.com/2016/madebr">Compartilhar</a>
+		<a target="_blank" href="http://www.facebook.com/sharer.php?u=http://gustavoquinalha.com/2016/madebr">
+			Compartilhar
+		</a>
+
+		<hr>
+
+		<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Your share button code -->
+	<div class="fb-share-button"
+		data-href="http://www.your-domain.com/your-page.html"
+		data-layout="button_count">
+	</div>
+
 	</div>
 
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
