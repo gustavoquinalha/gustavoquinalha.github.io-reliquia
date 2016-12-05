@@ -1,11 +1,10 @@
-
   <div class="menu-rel">
     <form>
     <div class="menu">
      <div class="menu-hamburguer">
        <input type="checkbox" value="selected" id="menu-hamburguer" class="menu-input">
        <label for="menu-hamburguer" class="menu-label">
-         MENU
+         <img src="images/menu.svg" alt="" class="menusvg">
        </label>
        <div role="menu" id="menuid" class="menu-content">
         <div class="menu-list">
@@ -16,9 +15,9 @@
         </div>
         <div class="menu-list-item">
           <a href="#">
-            <a href="{{ page.url | prepend: site.baseurl }}">Home</a>
+            <a href="{{ page.url | prepend: site.baseurl }}">Home</a><br>
             {% for page in site.pages %}
-            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><br>
             {% endfor %}
           </a>
         </div>

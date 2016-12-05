@@ -122,7 +122,10 @@ html {
 }
 .menu-logo {
     flex-grow: 1;
-    margin-left: 20px;
+    margin-left: 5%;
+}
+.menu-logo a{
+    font-weight: 900
 }
 .classe-logo {
     width: 40px;
@@ -144,8 +147,8 @@ html {
     transition: 0.5s;
     borde-color: #ae4bcf;
     font-size: 12px;
-    font-weight: 900;
-    margin-left: 20px;
+    font-weight: 500;
+    margin-left: 10px;
 }
 .menu-label {
     font-size: 1em;
@@ -375,10 +378,10 @@ html {
     }
     .menu-rel {
         width: 100%;
-        background: #fff!important
+        background: red!important
     }
     .menu-hamburguer {
-        display: block
+        display: block;
     }
     .menu-principal ul {
         display: none;
@@ -392,5 +395,24 @@ html {
     .menu-list-item a:hover,
     .menu-list-item a:focus {
         font-size: 22px!important;
+    }
+    .menusvg {
+      width: 100%;
+      margin-left: 10px;
+    }
+
+    .menu-logo {
+        margin-left:0;
+        margin-right: 5%;
+        text-align: right;
+        width: 100%;
+    }
+
+    .menu-rel {
+      height: 50px;
+      background: red!important
+    }
+    .portfolio-titulo {
+        width: 98%;
     }
 }

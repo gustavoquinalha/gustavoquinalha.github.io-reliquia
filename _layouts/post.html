@@ -7,7 +7,7 @@ layout: default
 	<h1 class="post-title">{{ page.title }}</h1>
 		<time class="post-date">{{ page.date | date_to_string }}</time>
 
-	
+
 
 	<div class="port">
 		<img src="{{ site.url }}{{ site.baseurl }}/images{{ page.image }}">
@@ -16,12 +16,13 @@ layout: default
 		{% for category in page.categories %}
 			<span>{{ category }}</span>
 		{% endfor %}
-		<br>{{ site.url }}{{ site.baseurl }}{{ page.url }}<br>				
+		<br><br>
+		<a target="_blank" href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}">Compartilhar</a>
 	</div>
 
 	{{ content }}
-		
-	<div class="comments">
+
+	<!--<div class="comments">
 		<div id="disqus_thread"></div>
 			<script>
 				var disqus_config = function () {
@@ -39,6 +40,6 @@ layout: default
 				})();
 			</script>
 			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-	</div>
+	</div>-->
 
 </article>
