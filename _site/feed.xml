@@ -5,8 +5,8 @@
     <description></description>
     <link>https://gustavoquinalha.github.io/</link>
     <atom:link href="https://gustavoquinalha.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Dec 2016 03:22:08 +0000</pubDate>
-    <lastBuildDate>Sun, 04 Dec 2016 03:22:08 +0000</lastBuildDate>
+    <pubDate>Mon, 05 Dec 2016 11:58:02 +0000</pubDate>
+    <lastBuildDate>Mon, 05 Dec 2016 11:58:02 +0000</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -17,14 +17,17 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 </description>
         <pubDate>Wed, 06 Apr 2016 04:52:25 +0100</pubDate>
         <link>https://gustavoquinalha.github.io/2016/mor</link>
         <guid isPermaLink="true">https://gustavoquinalha.github.io/2016/mor</guid>
         
+        <category>desenho</category>
         
-        <category>jekyll</category>
+        <category>illustracao</category>
+        
+        
+        <category>illustration</category>
         
       </item>
     
@@ -36,18 +39,15 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 </description>
         <pubDate>Wed, 06 Apr 2016 04:42:25 +0100</pubDate>
         <link>https://gustavoquinalha.github.io/2016/strike-out</link>
         <guid isPermaLink="true">https://gustavoquinalha.github.io/2016/strike-out</guid>
         
+        <category>site</category>
         
-        <category>testing</category>
         
-        <category>blog</category>
-        
-        <category>jekyll</category>
+        <category>illustration</category>
         
       </item>
     
@@ -59,18 +59,17 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 </description>
         <pubDate>Wed, 06 Apr 2016 04:40:25 +0100</pubDate>
         <link>https://gustavoquinalha.github.io/2016/danela</link>
         <guid isPermaLink="true">https://gustavoquinalha.github.io/2016/danela</guid>
         
+        <category>desenho</category>
         
-        <category>testing</category>
+        <category>illustracao</category>
         
-        <category>blog</category>
         
-        <category>jekyll</category>
+        <category>illustration</category>
         
       </item>
     
@@ -101,12 +100,12 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         <link>https://gustavoquinalha.github.io/2016/lissa</link>
         <guid isPermaLink="true">https://gustavoquinalha.github.io/2016/lissa</guid>
         
+        <category>desenho</category>
         
-        <category>testing</category>
+        <category>illustracao</category>
         
-        <category>blog</category>
         
-        <category>jekyll</category>
+        <category>illustration</category>
         
       </item>
     
@@ -133,17 +132,16 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-[jekyll-docs]: http://jekyllrb.com/docs/home</description>
+[jekyll-docs]: http://jekyllrb.com/docs/home
+</description>
         <pubDate>Tue, 05 Apr 2016 04:45:12 +0100</pubDate>
         <link>https://gustavoquinalha.github.io/2016/ju</link>
         <guid isPermaLink="true">https://gustavoquinalha.github.io/2016/ju</guid>
         
+        <category>desenho</category>
         
-        <category>testing</category>
         
-        <category>blog</category>
-        
-        <category>jekyll</category>
+        <category>illustration</category>
         
       </item>
     
