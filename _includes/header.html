@@ -1,5 +1,6 @@
-<form>
+
   <div class="menu-rel">
+    <form>
     <div class="menu">
      <div class="menu-hamburguer">
        <input type="checkbox" value="selected" id="menu-hamburguer" class="menu-input">
@@ -15,8 +16,9 @@
         </div>
         <div class="menu-list-item">
           <a href="#">
+            <a href="{{ page.url | prepend: site.baseurl }}">Home</a>
             {% for page in site.pages %}
-            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><br>
+            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endfor %}
           </a>
         </div>
@@ -31,6 +33,7 @@
 
   <div class="menu-principal">
     <ul>
+      <li><a href="{{ site.baseurl }}/">Home</a></li>
      <li><a href="javascript:void(0);">
       {% for page in site.pages %}
       <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -41,5 +44,5 @@
 
 
 </div>
-</div>
 </form>
+</div>

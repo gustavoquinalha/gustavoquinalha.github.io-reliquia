@@ -6,6 +6,10 @@ a {
     color: #2b2929;
     text-decoration: none;
 }
+
+html, body {
+  background: #f9f9f9
+}
 html {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
@@ -78,24 +82,24 @@ html {
 }
 
 .menu-rel {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     height: 70px;
-    background: #fff;
+    margin: 0 auto
 }
 .menu {
     background: #fff;
     position: fixed;
     z-index: 2;
-    width: 90%;
+    width: 100%;
     height: 50px;
-    padding-bottom: 20px;
     display: flex;
     flex-wrap: no-wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin: 0 auto
 }
 .menu-hamburguer {
     max-height: 100%;
@@ -119,18 +123,16 @@ html {
 .menu-logo {
     flex-grow: 1;
     margin-left: 20px;
-    padding-top: 10px;
 }
 .classe-logo {
     width: 40px;
 }
 .menu-principal {
-    flex-grow: 100;
+    flex-grow: 10;
 }
 .menu-principal ul {
     width: 90%;
     text-align: right;
-    padding-top: 20px;
 }
 .menu-principal ul li {
     display: inline-block;
@@ -310,7 +312,7 @@ html {
 
 .compartilhar {
 	width: 100%;
-	background: red;
+
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
