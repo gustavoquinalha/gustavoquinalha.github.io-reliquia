@@ -295,7 +295,7 @@ html {
 }
 
 .post {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: left
 }
 
@@ -333,7 +333,8 @@ html {
 }
 
 .port {
-    width: 100%;
+    width:400px;
+    max-width: 100%;
     text-align: center;
 }
 
