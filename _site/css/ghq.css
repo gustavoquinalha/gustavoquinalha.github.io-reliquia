@@ -378,7 +378,6 @@ html {
     }
     .menu-rel {
         width: 100%;
-        background: red!important
     }
     .menu-hamburguer {
         display: block;
@@ -410,7 +409,6 @@ html {
 
     .menu-rel {
       height: 50px;
-      background: red!important
     }
     .portfolio-titulo {
         width: 98%;
