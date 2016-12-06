@@ -362,6 +362,153 @@ html {
   margin-top: 20px;
 }
 
+.ptopo {
+  padding-top: 20px;
+  background: #fff;
+  display:flex;
+  border-radius: 4px;
+}
+
+.ptopo1 {
+  flex-grow: 1;
+  flex-basis: 300px;
+  justify-content:space-around;
+  align-items:flex-start;
+  align-content:center;
+}
+
+.ptopo-foto {
+  background:url(../images/eu.jpg) 100%;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 6px solid black;
+}
+
+.ptopo2 {
+  flex-grow: 12!important;
+  flex-basis: 300px;
+  justify-content:space-around;
+  align-items:flex-start;
+  align-content:center;
+}
+
+.topo-rs {
+
+}
+
+.topo-rs a{
+
+}
+
+.xp {
+  display: flex;
+  flex-wrap:nowrap
+}
+
+.xpp {
+  width: 30%;
+  text-align: right;
+}
+
+.xppp {
+  width: 70%;
+  text-align: left!important;
+  margin-left: 10px
+}
+
+.xppp ul{
+  list-style-type: none
+}
+
+.xppp ul li{
+  display: inline-block;
+}
+
+.exp {
+  width: 95%;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.exp-titulo {
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+hr {
+  background: #000;
+  border-color: #000;
+  width: 95%;
+  float: left
+}
+
+.exp-cont-titulo data{
+  font-size: 10px;
+}
+
+.exp-cont-titulo {
+  opacity: 0.8;
+  padding-bottom: 5px;
+}
+
+.exp-cont {
+  padding-bottom: 20px;
+}
+
+.exp-cont p{
+  font-size: 14px;
+  opacity: 0.7
+}
+
+.exp-cont span{
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.skills {
+  padding-bottom: 50px;
+}
+
+.nuvem {
+  width: 300px;
+  max-width: 90%;
+  padding-top: 20px;
+}
+
+.exe {
+  font-size: 18px;
+    font-weight: 900
+}
+
+.me {
+  font-size: 12px;
+    font-weight: 900
+}
+
+.po {
+  font-size: 9px;
+    font-weight: 900
+}
+
+.alinha {
+  width: 90%;
+}
+
+.sobre {
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+
+.localcont {
+  background: red;
+  font-size: 20px!important;
+  width:150px;
+  float: left;
+}
+
 @media only screen and (max-width: 400px) {
 	.size {
         width: 100%;
