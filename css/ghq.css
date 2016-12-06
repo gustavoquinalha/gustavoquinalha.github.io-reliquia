@@ -509,6 +509,47 @@ hr {
   float: left;
 }
 
+.projetos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-basis: 300px;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+}
+
+.proj {
+  flex-grow: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.proj-img {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.proj-nome {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 0.8;
+  padding-top: 10px;
+}
+
+.proj-nome span{
+  font-size: 10px;
+  font-weight: 900;
+  opacity: 0.5;
+  line-height: 0;
+}
+
+
+
 @media only screen and (max-width: 400px) {
 	.size {
         width: 100%;
