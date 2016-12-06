@@ -1,63 +1,59 @@
 
-		{% comment %}
-	=======================
-	The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
-	=======================
-	{% endcomment %}
-	{% assign rawtags = "" %}
-	{% for post in site.posts %}
-		{% assign ttags = post.tags | join:'|' | append:'|' %}
-		{% assign rawtags = rawtags | append:ttags %}
-	{% endfor %}
-	{% assign rawtags = rawtags | split:'|' | sort %}
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
 
-	{% comment %}
-	=======================
-	The following part removes dulpicated tags and invalid tags like blank tag.
-	=======================
-	{% endcomment %}
-	{% assign tags = "" %}
-	{% for tag in rawtags %}
-		{% if tag != "" %}
-			{% if tags == "" %}
-				{% assign tags = tag | split:'|' %}
-			{% endif %}
-			{% unless tags contains tag %}
-				{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-			{% endunless %}
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+{% if tag != "" %}
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+
+
+
+
+{% for tag in tags %}
+<div class="categoria">
+	<div class="flex-container size">
+		<h2 class="titulo-categoria" id="{{ tag | slugify }}"><img src="images/flecha.svg" alt="" class="flecha"> {{ tag }}</h2>
+	</div>
+	<div class="flex-container size categoria">
+		{% for post in site.posts %}
+		{% if post.tags contains tag %}
+		<div class="flex-item">
+			<a href="{{ post.url | prepend: site.baseurl }}">
+				<div class="portfolio">
+					<img src="images/{{ post.image }}" class="portfolio-img" alt="{{ post.title }}" title="{{ post.title }}">
+				</div>
+				<div class="portfolio-titulo">
+					<h2>{{ post.title }}</h2>
+					<time>{{ post.date | date_to_string }}</time>
+				</div>
+			</a>
+
+		</div>
 		{% endif %}
-	{% endfor %}
-
-
-
-
-
-		{% for tag in tags %}
-		<div class="categoria">
-		<div class="flex-container size">
-			<h2 class="titulo-categoria" id="{{ tag | slugify }}"><img src="images/flecha.svg" alt="" class="flecha"> {{ tag }}</h2>
-		</div>
-		<div class="flex-container size categoria">
-		 {% for post in site.posts %}
-			 {% if post.tags contains tag %}
-			 <div class="flex-item">
-		 		<a href="{{ post.url | prepend: site.baseurl }}">
-		 		<div class="portfolio">
-		 			<img src="images/{{ post.image }}" class="portfolio-img" alt="{{ post.title }}" title="{{ post.title }}">
-		 		</div>
-		 		<div class="portfolio-titulo">
-		 			<h2>{{ post.title }}</h2>
-		 			<time>{{ post.date | date_to_string }}</time>
-		 		</div>
-		 		</a>
-
-		 	</div>
-			 {% endif %}
-		 {% endfor %}
-		 </div>
 		{% endfor %}
-		</div>
-
-
-
-		
+	</div>
+	{% endfor %}
+</div>
