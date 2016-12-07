@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sobre
-permalink: /sobre/
+title: Meu currículo
+permalink: /curriculo/
 ---
 
 <div class="flex-container size ptopo">

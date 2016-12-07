@@ -10,14 +10,18 @@
         <div class="menu-list">
          <div class="menu-list-item fechar-lado">
           <button class="fechar" type="reset">
-            fechar
+            X
           </button>
         </div>
         <div class="menu-list-item">
           <a href="#">
-            <a href="{{ page.url | prepend: site.baseurl }}">Home</a><br>
+            <a href="{{ page.url | prepend: site.baseurl }}">Home</a><br><br>
             {% for page in site.pages %}
+            {% if page.title == "Meu currículo" %}
+            <a href="{{ page.url | prepend: site.baseurl }}" class="curri">{{ page.title }}</a>
+            {% else %}
             <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><br>
+            {% endif %}
             {% endfor %}
           </a>
         </div>
@@ -34,9 +38,13 @@
     <ul>
       <li><a href="{{ site.baseurl }}/">Home</a></li>
      <li><a href="javascript:void(0);">
-      {% for page in site.pages %}
-      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endfor %}
+       {% for page in site.pages %}
+       {% if page.title == "Meu currículo" %}
+       <a href="{{ page.url | prepend: site.baseurl }}" class="curri">{{ page.title }}</a>
+       {% else %}
+       <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+       {% endif %}
+       {% endfor %}
     </a></li>
   </ul>
 </div>

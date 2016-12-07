@@ -145,10 +145,15 @@ html {
     text-transform: uppercase;
     color: #383535;
     transition: 0.5s;
-    borde-color: #ae4bcf;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 900;
     margin-left: 10px;
+}
+.menu-principal ul li a:hover,
+.menu-principal ul li a:focus {
+    color: #1DA1F2!important;
+    border-color: #1DA1F2!important;
+    text-shadow: none
 }
 .menu-label {
     font-size: 1em;
@@ -175,7 +180,7 @@ html {
     align-items: center;
     align-content: center;
     transition: 1s;
-    top: 80px;
+    top: 50px;
 }
 .menu-input:not(checked) ~ .menu-content {
     display: none;
@@ -200,10 +205,10 @@ html {
     padding: 0;
 }
 .menu-list-item a {
-    font-family: 'Bree Serif', serif;
     margin: 0;
     padding: 0;
-    color: #383535;
+    color: #fff;
+    font-weight: 900;
     font-size: 12px;
     text-decoration: none;
     transition: 0.6s;
@@ -212,39 +217,32 @@ html {
 .menu-list-item a:hover,
 .menu-list-item a:focus {
     font-size: 44px;
-    -webkit-animation: example 2s infinite;
-    animation: example 2s infinite;
+    color: red!important
 }
 .fechar-lado {
     text-align: right;
 }
 .fechar {
-    color: #ae4bcf;
+    color: #fff;
     border: none;
     background: transparent;
     font-size: 22px;
     padding: 1% 3%;
     border-radius: 10px;
-    -webkit-animation: example 5s infinite;
-    animation: example 5s infinite;
+    transition: 1s;
+    width: 40px;
+    height: 40px;
+    background: #1DA1F2;
+    border-radius: 50%;
+    margin-top: 10px;
+      margin-right: 10px;
 }
-@keyframes example {
-    0% {
-        color: #584b88;
-    }
-    25% {
-        color: #ae4bcf;
-    }
-    50% {
-        color: #584b88;
-    }
-    75% {
-        color: #ae4bcf;
-    }
-    100% {
-        color: #584b88;
-    }
+
+.fechar:focus,
+.fechar:hover {
+  font-size: 24px!important
 }
+
 .fundo-teste2 {
     background: #fff;
     width: 100%;
@@ -383,7 +381,8 @@ html {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 6px solid black;
+  border: 1px solid #9b9999;
+  box-shadow: 1px 1px 5px 0px #7c7b7b
 }
 
 .ptopo2 {
@@ -553,6 +552,25 @@ hr {
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 10px;
+}
+
+.in label {
+  color: #474646;
+  font-weight: 500
+}
+
+.encontre {
+  padding-top: 20px;
+  font-weight: 900
+}
+
+.tbm {
+  text-align: center;
+  font-weight: 900;
+  color:#474646;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 form {
@@ -563,20 +581,33 @@ form {
 
 .inpt {
   width: 100%;
-  font-size: 22px;
-  padding: 1% 0;
+  font-size: 16px;
+  height: 50px;
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-align: center;
   border:1px solid transparent;
   border-radius: 3px;
+  color: #828080!important;
+  font-weight:200!important
+}
+
+.inpt:focus {
+  border-color: #1DA1F2;
+  box-shadow: none;
+  outline: none
+}
+
+.tex {
+  padding-top: 20px!important;
+  min-height: 100px;
 }
 
 .btn {
-  background: #77C7F7;
+  background: #1DA1F2;
   border-radius:3px;
   border:none;
-  padding: 1% 3%;
+  height: 50px;
   margin: 0 auto;
   font-size: 22px;
   color: #fff;
@@ -585,9 +616,63 @@ form {
 
 .btn:hover,
 .btn:focus {
-  background: #70bae5;
+  background: #1a8acc;
 
 }
+
+.dados {
+  background: #fff;
+  border-radius: 3px;
+  width:600px;
+  max-width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dados-tit {
+  width: 100%;
+  text-align: center;
+  color: #474646!important;
+}
+
+.dados-tit ul{
+  list-style-type: none;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.dados-tit ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.dados-tit ul li img{
+  width: 20px;
+  height: 20px;
+}
+
+.curri {
+  border:2px solid #1DA1F2;
+  background: #1DA1F2;
+  color: #fff!important;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.curri:focus,
+.curri:hover {
+  border:2px solid #1a8acc!important;
+  background:#1a8acc!important;
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 400px) {
   .btn {
@@ -627,7 +712,7 @@ form {
         display: none;
     }
     .menu-list {
-        background: rgba(0, 0, 0, 0.9);
+        background: rgba(0, 0, 0, 1);
     }
     .menu-list-item a {
         font-size: 20px!important;
@@ -635,6 +720,7 @@ form {
     .menu-list-item a:hover,
     .menu-list-item a:focus {
         font-size: 22px!important;
+        color: #1DA1F2!important
     }
     .menusvg {
       width: 100%;
