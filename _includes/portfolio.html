@@ -1,0 +1,14 @@
+
+<div class="categoria">
+	<div class="flex-container size categoria">
+		{% for post in site.posts %}
+		<div class="flex-item">
+				<a href="{{ post.url | prepend: site.baseurl }}">
+					<div class="portfolio">
+						<img src="../images/{{ post.image }}" class="portfolio-img" alt="{{ post.title }}" title="{{ post.title }}">
+				</div>
+				</a>
+		</div>
+		{% endfor %}
+  </div>
+</div>

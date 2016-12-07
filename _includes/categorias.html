@@ -28,10 +28,6 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 {% endif %}
 {% endfor %}
 
-
-
-
-
 {% for tag in tags %}
 <div class="categoria">
 	<div class="flex-container size">
@@ -41,15 +37,11 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 		{% for post in site.posts %}
 		{% if post.tags contains tag %}
 		<div class="flex-item">
-
-				<a href="{{ post.url | prepend: site.baseurl }}">
-					<div class="portfolio">
-						<img src="images/{{ post.image }}" class="portfolio-img" alt="{{ post.title }}" title="{{ post.title }}">
+			<a href="{{ post.url | prepend: site.baseurl }}">
+				<div class="portfolio">
+					<img src="images/{{ post.image }}" class="portfolio-img" alt="{{ post.title }}" title="{{ post.title }}">
 				</div>
-
-				</a>
-
-
+			</a>
 		</div>
 		{% endif %}
 		{% endfor %}
