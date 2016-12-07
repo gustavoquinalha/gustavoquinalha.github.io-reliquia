@@ -39,4 +39,3 @@ permalink: /contato/
 <input type="submit" value="Enviar" class="btn" />
 </div>
 </form>
-</div>
