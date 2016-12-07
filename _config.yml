@@ -17,4 +17,4 @@ github_username:  gustavoquinalha
 # Build settings
 markdown: kramdown
 # permalink: /:categories/:year/:month/:day/:title
-permalink: /:year/:title
+permalink: /portfolio/:title
