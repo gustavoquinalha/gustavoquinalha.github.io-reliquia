@@ -39,8 +39,14 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 		<div class="flex-item">
 			<a href="{{ post.url | prepend: site.baseurl }}">
 				<div class="portfolio">
-					<img src="images/{{ post.image }}" class="portfolio-img" alt="{{ post.title }}" title="{{ post.title }}">
+					<div class="rel">
+						<img src="images/{{ post.image }}" class="portfolio-img" alt="{{ post.title }}" title="{{ post.title }}">
+						<div class="portitu">
+							{{ post.title }}
+						</div>
+					</div>
 				</div>
+
 			</a>
 		</div>
 		{% endif %}
