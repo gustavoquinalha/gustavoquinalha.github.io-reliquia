@@ -104,7 +104,7 @@ html {
 .menu {
     background: #fff;
     position: fixed;
-    z-index: 2;
+    z-index: 5;
     width: 100%;
     height: 50px;
     display: flex;
@@ -112,11 +112,17 @@ html {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 0 auto
+    margin: 0 auto;
+    overflow: hidden;
+}
+.menusvg {
+  width: 100%;
+  padding-left: 80%;
+  opacity: 0.7
 }
 .menu-hamburguer {
     max-height: 100%;
-
+    overflow: hidden;
 }
 .menu-hamburguer img {
     width: 100%;
@@ -711,11 +717,7 @@ form {
   display: block;
 }
 
-.menusvg {
-  width: 100%;
-  padding-left: 80%;
-  opacity: 0.7
-}
+
 
 
 
