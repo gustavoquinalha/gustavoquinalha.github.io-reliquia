@@ -703,7 +703,8 @@ form {
   padding-top: 50%;
   display: none;
   background: rgba(0, 0, 0, 0.8);
-  font-weight: 900
+  font-weight: 900;
+  transition: 1s
 }
 
 .portfolio:hover .portitu {
