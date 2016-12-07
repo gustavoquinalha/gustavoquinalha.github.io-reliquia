@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=0">
-  <title>{% if page.title %} Gustavo Quinalha{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  <title>{% if page.title %} Gustavo Quinalha {{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
   <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/images/favicon.svg" sizes="any" type="image/svg+xml">
   <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/images/favicon.ico" type="image/x-icon"/>
   <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/images/favicon.ico" type="image/x-icon"/>
@@ -12,6 +12,7 @@
   {% if page.layout == "post" %}
   <!-- Open Graph data -->
   <meta property="og:title" content="{{ page.title }} - Portfólio Gustavo Quinalha" />
+  <meta property="fb:app_id" content="1154262757941899" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://gustavoquinalha.com/{{ page.url }}" />
   <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images{{ page.image }}" />
@@ -19,6 +20,7 @@
   <meta property="og:site_name" content="Gustavo Quinalha" />
   <meta property="fb:admins" content="100002787447461" />
   {% else %}
+  <meta property="fb:app_id" content="1154262757941899" />
   <meta property="og:title" content="Portfólio Gustavo Quinalha" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://gustavoquinalha.com/" />
