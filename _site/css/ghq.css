@@ -217,7 +217,6 @@ html {
 .menu-list-item a:hover,
 .menu-list-item a:focus {
     font-size: 44px;
-    color: red!important
 }
 .fechar-lado {
     text-align: right;
@@ -314,6 +313,14 @@ html {
   float: left;
 }
 
+.right {
+  float: right;
+
+}
+
+.ajus {
+  margin-top: -20px;
+}
 
 .compartilhar {
 	width: 100%;
@@ -505,7 +512,6 @@ hr {
 }
 
 .localcont {
-  background: red;
   font-size: 20px!important;
   width:150px;
   float: left;
