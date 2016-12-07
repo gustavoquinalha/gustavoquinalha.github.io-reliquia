@@ -736,9 +736,20 @@ form {
 
 .well {
   width: 90%;
+
 }
 
+.post-list {
+  width: 90%;
+  background: #fff;
+  list-style-type: none!important;
+  padding-top: 10px;
+  text-align: center
+}
 
+.post-list ul li{
+  list-style-type: none!important
+}
 
 
 

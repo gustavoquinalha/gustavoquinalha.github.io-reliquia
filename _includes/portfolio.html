@@ -1,4 +1,21 @@
+<div ng-app="searchApp">
+<div ng-controller="searchController">
 
+  <div class="well">
+    <input type="text" class="inpt" ng-model="search" ng-keyup="pesquisar(search)" placeholder="Exemplo: Illustrações" autofocus autocomplete="off">
+  </div>
+<ul class="post-list" ng-repeat="post in posts | filter:search">
+  <li><img src="../images/{{ post.image }}" alt=""></li>{{ post.image }}a
+</ul>
+  <!--<ul class="post-list" ng-show="posts.length > 0">
+    <li ng-repeat="post in posts | filter:search">
+        <a class="post-link" href="{( post.url )}"><strong>{( post.title )} </strong><span class="post-meta"><em>{( post.category )}</em></span></a>
+    </li>
+  </ul>-->
+</div>
+
+</div>
+<!--
 <div class="categoria">
 	<div class="flex-container size categoria">
 		{% for post in site.posts %}
@@ -12,3 +29,4 @@
 		{% endfor %}
   </div>
 </div>
+-->
