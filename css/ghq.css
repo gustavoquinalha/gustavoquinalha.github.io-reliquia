@@ -113,6 +113,7 @@ html {
     align-items: center;
     align-content: center;
     margin: 0 auto;
+    border-bottom: 1px solid #eae8e8
 }
 .menusvg {
   width: 100%;
