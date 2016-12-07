@@ -41,24 +41,14 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 		{% for post in site.posts %}
 		{% if post.tags contains tag %}
 		<div class="flex-item">
-			<div class="rel">
+
 				<a href="{{ post.url | prepend: site.baseurl }}">
 					<div class="portfolio">
 						<img src="images/{{ post.image }}" class="portfolio-img" alt="{{ post.title }}" title="{{ post.title }}">
-
-
-					<div class="reltex">
-						<div class="portfolio-titulo-reltex">
-							<div class="f">
-								<h2>{{ post.title }}</h2>
-							</div>
-
-
-						</div>
-					</div>
 				</div>
+
 				</a>
-			</div>
+
 
 		</div>
 		{% endif %}
