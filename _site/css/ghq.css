@@ -734,6 +734,9 @@ form {
   display: block;
 }
 
+.well {
+  width: 90%;
+}
 
 
 
