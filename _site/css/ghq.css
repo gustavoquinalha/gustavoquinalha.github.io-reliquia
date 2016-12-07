@@ -128,7 +128,8 @@ html {
     font-weight: 900
 }
 .classe-logo {
-    width: 40px;
+    width: 80px;
+    opacity: 0.8
 }
 .menu-principal {
     flex-grow: 10;
