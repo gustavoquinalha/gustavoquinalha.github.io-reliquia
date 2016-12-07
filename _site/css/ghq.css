@@ -744,11 +744,18 @@ form {
   background: #fff;
   list-style-type: none!important;
   padding-top: 10px;
-  text-align: center
+  padding-bottom: 10px;
+  text-align: center;
+  display: inline-block!important;
+  font-size: 16px;
 }
 
-.post-list ul li{
-  list-style-type: none!important
+
+
+.post-list li{
+  list-style-type: none!important;
+  display: inline-block!important;
+
 }
 
 
