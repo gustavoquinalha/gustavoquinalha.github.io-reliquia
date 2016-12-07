@@ -6,8 +6,16 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href={{ "/css/ghq.css" | prepend: site.baseurl }}>
-
+  {% if page.layout == "post" %}
   <!-- Open Graph data -->
+  <meta property="og:title" content="{{ page.title }} - Portfólio Gustavo Quinalha" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://gustavoquinalha.com/{{ page.url }}" />
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/images{{ page.image }}" />
+  <meta property="og:description" content="Gustavo Quinalha - Web Developer e Designer Gráfico. Confira todos os meus trabalhos." />
+  <meta property="og:site_name" content="Gustavo Quinalha" />
+  <meta property="fb:admins" content="100002787447461" />
+  {% else %}
   <meta property="og:title" content="Portfólio Gustavo Quinalha" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://gustavoquinalha.com/" />
@@ -15,7 +23,7 @@
   <meta property="og:description" content="Gustavo Quinalha - Web Developer e Designer Gráfico. Confira todos os meus trabalhos." />
   <meta property="og:site_name" content="Gustavo Quinalha" />
   <meta property="fb:admins" content="100002787447461" />
-
+  {% endif %}
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@gustavoquinalha">

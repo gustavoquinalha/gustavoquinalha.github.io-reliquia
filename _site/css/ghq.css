@@ -310,6 +310,10 @@ html {
     display: inline-block;
 }
 
+.left {
+  float: left;
+}
+
 
 .compartilhar {
 	width: 100%;
