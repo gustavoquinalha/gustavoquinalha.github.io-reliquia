@@ -5,7 +5,6 @@ permalink: /contato/
 ---
 <div class="flex-container size dados">
 	<div class="ptopo-foto">
-
 	</div>
 	<div class="dados-tit">
 		<h2>Gustavo Henrique Quinalha</h2>
@@ -18,14 +17,12 @@ permalink: /contato/
 			<li><a href="https://br.linkedin.com/in/gustavo-quinalha-2a6b83101" target="_blank"><img src="../images/linkedin.svg" alt=""></a></li>
 			<li><a href="https://www.facebook.com/gquinalha" target="_blank"><img src="../images/facebook.svg" alt=""></a></li>
 			<li><a href="https://twitter.com/gustavoquinalha" target="_blank"><img src="../images/twitter.svg" alt=""></a></li>
-
 		</ul>
 	</div>
 </div>
 <div class="tbm">
-<span>Se preferir pode mandar uma mensagem :)</span>
+	<span>Se preferir pode mandar uma mensagem :)</span>
 </div>
-
 <div class="flex-container size contato">
 	<form method="POST" action="https://simple-form.com/gustavo_quinalha@hotmail.com">
 		<div class="in">
@@ -35,11 +32,11 @@ permalink: /contato/
 			<input type="email" name="replyTo" class="inpt" placeholder="Digite seu email"/>
 		</div>
 		<div class="in">
-			<textarea name="message" class="inpt tex" placeholder="Digite sua mensagem"></textarea></div>
+			<textarea name="message" class="inpt tex" placeholder="Digite sua mensagem"></textarea>
 		</div>
-		<div class="in">
-
-			<input type="submit" value="Enviar" class="btn" />
-		</div>
-	</form>
+</div>
+<div class="in">
+<input type="submit" value="Enviar" class="btn" />
+</div>
+</form>
 </div>
