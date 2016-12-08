@@ -425,8 +425,8 @@ animation: 5s write;
 .ptopo-foto {
   background:url(../images/eu.jpg) 100%;
   background-size: cover;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   border: 1px solid #9b9999;
   box-shadow: 1px 1px 5px 0px #7c7b7b
@@ -481,7 +481,10 @@ animation: 5s write;
 .exp-titulo {
   font-weight: 900;
   padding-bottom: 20px;
-  opacity: 0.7
+  width: 100%;
+  display: block;
+  padding-bottom: 50px;
+
 }
 .ptopo-titulo {
   text-align: left;
@@ -500,7 +503,8 @@ hr {
 }
 
 .exp-cont-titulo {
-  opacity: 0.8;
+  color: #666666;
+  font-weight: bold;
   padding-bottom: 5px;
 }
 
@@ -527,6 +531,8 @@ hr {
   width: 300px;
   max-width: 90%;
   padding-top: 20px;
+  padding-bottom: 20px;
+  color: #666666
 }
 
 .exe {
@@ -580,7 +586,7 @@ hr {
 .proj-img {
   width: 80px;
   height: 80px;
-  border: 2px solid black;
+  border: 2px solid #7c7c7c;
   border-radius: 50%;
 }
 
@@ -589,6 +595,7 @@ hr {
   font-weight: 900;
   line-height: 0.8;
   padding-top: 10px;
+  color: #7c7c7c
 }
 
 .proj-nome span{
@@ -671,6 +678,18 @@ form {
 
 }
 
+.bcor {
+  background: #1DA1F2;
+  float: left;
+  display: block;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px
+}
+
 .dados {
   background: #fff;
   border-radius: 3px;
@@ -683,6 +702,11 @@ form {
 
 .lefc {
   text-align: left!important;
+}
+
+.lefcc {
+  text-align: left!important;
+  margin-left: -20px;
 }
 
 .dadosi {
