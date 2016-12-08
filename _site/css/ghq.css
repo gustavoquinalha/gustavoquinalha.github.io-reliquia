@@ -441,7 +441,7 @@ animation: 5s write;
 }
 
 .topo-rs {
-
+  text-align: left;
 }
 
 .topo-rs a{
@@ -481,13 +481,18 @@ animation: 5s write;
 .exp-titulo {
   font-weight: 900;
   padding-bottom: 20px;
+  opacity: 0.7
+}
+.ptopo-titulo {
+  text-align: left;
 }
 
 hr {
   background: #000;
   border-color: #000;
   width: 95%;
-  float: left
+  float: left;
+  opacity: 0.7
 }
 
 .exp-cont-titulo data{
