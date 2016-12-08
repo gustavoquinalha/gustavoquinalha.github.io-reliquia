@@ -33,7 +33,7 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 {% for tag in tags %}
 <div class="categoria">
 	<div class="flex-container size">
-		<h2 class="titulo-categoria" id="{{ tag | slugify }}"><img src="images/flecha.svg" alt="" class="flecha"> {{ tag }}</h2>
+		<h2 class="titulo-categoria" id="{{ tag | slugify }}"> {{ tag }}</h2>
 	</div>
 	<div class="flex-container size categoria">
 		{% for post in site.posts %}

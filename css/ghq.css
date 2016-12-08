@@ -55,6 +55,7 @@ animation: 5s write;
     margin-bottom: 5px;
     text-align: center;
     overflow: hidden;
+    border: 1px solid #eae8e8
 }
 .portfolio-titulo {
     width: 300px;
@@ -648,7 +649,7 @@ form {
   margin: 0 auto;
   margin-bottom: 5px;
   text-align: center;
-  border:1px solid transparent;
+  border: 1px solid #eae8e8;
   border-radius: 3px;
   color: #828080!important;
   font-weight:200!important
@@ -702,6 +703,7 @@ form {
   padding-bottom: 20px;
   padding-top: 20px;
   margin-bottom: 20px;
+  border: 1px solid #eae8e8
 }
 
 .lefc {
@@ -823,6 +825,7 @@ form {
     margin: 0 auto;
     width: 90%;
     text-align: center;
+
   }
 	.size {
         width: 100%;
