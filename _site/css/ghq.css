@@ -363,9 +363,13 @@ animation: 5s write;
 }
 
 .tags {
-	padding-top: 20px;
+	padding-top: 0px;
 	padding-bottom: 20px;
 	font-size: 16px;
+}
+
+.behan {
+  padding-bottom: 10px;
 }
 
 .tags span{
@@ -375,7 +379,7 @@ animation: 5s write;
 }
 
 .port {
-    width:400px;
+    width:700px;
     max-width: 100%;
 }
 
@@ -739,12 +743,16 @@ form {
 
 }
 
+.beh {
+  width: 20px!important;
+}
+
 .post-list {
   width: 90%;
   background: #fff;
   list-style-type: none!important;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 10px;
   text-align: center;
   display: inline-block!important;
   font-size: 16px;
@@ -757,9 +765,6 @@ form {
   display: inline-block!important;
 
 }
-
-
-
 
 
 
