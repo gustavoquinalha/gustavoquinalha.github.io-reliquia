@@ -676,6 +676,15 @@ form {
   margin-bottom: 20px;
 }
 
+.dadosi {
+  background: #fff;
+  border-radius: 3px;
+  width:90%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
 .dados-tit {
   width: 100%;
   text-align: center;
