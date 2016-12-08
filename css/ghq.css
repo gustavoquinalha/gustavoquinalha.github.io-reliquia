@@ -676,6 +676,10 @@ form {
   margin-bottom: 20px;
 }
 
+.lefc {
+  text-align: left!important;
+}
+
 .dadosi {
   background: #fff;
   border-radius: 3px;
