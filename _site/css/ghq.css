@@ -488,6 +488,7 @@ animation: 5s write;
 }
 .ptopo-titulo {
   text-align: left;
+  color: #666666;
 }
 
 hr {
@@ -500,6 +501,9 @@ hr {
 
 .exp-cont-titulo data{
   font-size: 10px;
+}
+.h {
+  margin-bottom: 20px;
 }
 
 .exp-cont-titulo {
