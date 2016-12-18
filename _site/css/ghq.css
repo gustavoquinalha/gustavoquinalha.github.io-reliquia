@@ -882,7 +882,7 @@ form {
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
   .portfolio {
-      width: 30px;
+      width: 300px;
       max-width: 100%;
       max-height: 300px;
       text-align: center;
