@@ -880,21 +880,13 @@ form {
     }
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
   .portfolio {
-      background: pink;
-      width: 200px;
+      width: 30px;
       max-width: 100%;
-      max-height: 200px;
+      max-height: 300px;
       text-align: center;
       overflow: hidden;
       margin-bottom: 5px;
-  }
-}
-
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-  .portfolio {
-    background: yellow!important;
-    width: 40%;
   }
 }
