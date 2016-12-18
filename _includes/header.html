@@ -15,7 +15,7 @@
         </div>
         <div class="menu-list-item">
           <a href="#">
-            <a href="{{ page.url | prepend: site.baseurl }}">Homee</a><br><br>
+            <a href="{{ page.url | prepend: site.baseurl }}">Home</a><br><br>
             {% for page in site.pages %}
             {% if page.title == "Meu currículo" %}
             <a href="{{ page.url | prepend: site.baseurl }}" class="curri2">{{ page.title }}</a>
@@ -36,7 +36,7 @@
 
   <div class="menu-principal">
     <ul>
-      <li><a href="{{ site.baseurl | prepend: site.baseurl }}/">Home</a></li>
+      <li><a href="{{ site.baseurl | prepend: site.baseurl }}/" class="es">Home</a></li>
 
        {% for page in site.pages %}
        {% if page.title == "Meu currículo" %}

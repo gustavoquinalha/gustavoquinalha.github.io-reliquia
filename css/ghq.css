@@ -180,7 +180,9 @@ animation: 5s write;
     transition: 0.5s;
     font-size: 14px;
     font-weight: 900;
-    margin-left: 10px;
+}
+.es {
+  margin-right: 10px;
 }
 .menu-principal ul li a:hover,
 .menu-principal ul li a:focus {
