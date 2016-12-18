@@ -50,8 +50,8 @@ animation: 5s write;
 }
 .portfolio {
     background: #fff;
-    width: 420px;
-    max-height: 420px;
+    width: 400px;
+    max-height: 400px;
     text-align: center;
     overflow: hidden;
     margin-bottom: 5px;
