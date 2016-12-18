@@ -883,13 +883,13 @@ form {
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
   .portfolio {
     background: blue!important;
-    width: 100%;
+    width: 40%;
   }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
   .portfolio {
     background: yellow!important;
-    width: 100%;
+    width: 40%;
   }
 }
