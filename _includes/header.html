@@ -37,15 +37,16 @@
   <div class="menu-principal">
     <ul>
       <li><a href="{{ site.baseurl | prepend: site.baseurl }}/">Home</a></li>
-     <li><a href="javascript:void(0);">
+
        {% for page in site.pages %}
        {% if page.title == "Meu currículo" %}
-       <a href="{{ page.url | prepend: site.baseurl }}" class="curri">{{ page.title }}</a>
+       <li><a href="{{ page.url | prepend: site.baseurl }}" class="curri">{{ page.title }}</a></li>
        {% else %}
-       <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+       <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
        {% endif %}
        {% endfor %}
-    </a></li>
+
+
   </ul>
 </div>
 
