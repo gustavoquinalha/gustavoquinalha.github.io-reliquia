@@ -43,19 +43,18 @@ animation: 5s write;
     flex-direction: row;
     justify-content: flex-start!important;
     align-items: stretch!important;
-    align-content: flex-start!important;
+    align-content: space-around;!important;
 }
 .flex-item {
     flex-grow: 1;
 }
 .portfolio {
     background: #fff;
-    width: 300px;
-    max-height: 300px;
-    margin-bottom: 5px;
+    width: 420px;
+    max-height: 420px;
     text-align: center;
     overflow: hidden;
-    border: 1px solid #eae8e8
+    margin-bottom: 5px;
 }
 .portfolio-titulo {
     width: 300px;
@@ -78,18 +77,11 @@ animation: 5s write;
 }
 
 .portfolio-img {
-    position: relative;
-    width: 100%!important;
-    -webkit-filter: brightness(100%); /* Safari 6.0 - 9.0 */
-    filter: brightness(100%);
+    width: 100%;
     transition: 0.5s
 }
 
 .portfolio-img:hover {
-    position: relative;
-    width: 100%!important;
-    -webkit-filter: brightness(20%); /* Safari 6.0 - 9.0 */
-    filter: brightness(20%);
 }
 
 .footer {
