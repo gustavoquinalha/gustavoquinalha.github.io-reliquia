@@ -15,12 +15,12 @@
         </div>
         <div class="menu-list-item">
           <a href="#">
-            <a href="{{ page.url | prepend: site.baseurl }}">Home</a><br><br>
+            <a href="{{ page.url | prepend: site.baseurl }}">Homee</a><br><br>
             {% for page in site.pages %}
             {% if page.title == "Meu currículo" %}
-            <a href="{{ page.url | prepend: site.baseurl }}" class="curri">{{ page.title }}</a>
+            <a href="{{ page.url | prepend: site.baseurl }}" class="curri2">{{ page.title }}</a>
             {% else %}
-            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><br>
+            <br><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %}
             {% endfor %}
           </a>
