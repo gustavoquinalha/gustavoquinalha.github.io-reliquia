@@ -811,6 +811,24 @@ form {
   .menu-principal ul {
       display: none;
   }
+  .menusvg {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .menu-logo {
+      margin-left:0;
+      margin-right: 5%;
+      text-align: right;
+      width: 100%;
+  }
+
+  .menu-rel {
+    height: 50px;
+  }
+  .menusvg {
+    margin-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -845,9 +863,6 @@ form {
     .menu-rel {
         width: 100%;
     }
-    .menu-hamburguer {
-
-    }
 
     .menu-list {
         background: rgba(0, 0, 0, 1);
@@ -860,21 +875,7 @@ form {
         font-size: 22px!important;
         color: #1DA1F2!important
     }
-    .menusvg {
-      width: 100%;
-      padding-left: 0;
-    }
 
-    .menu-logo {
-        margin-left:0;
-        margin-right: 5%;
-        text-align: right;
-        width: 100%;
-    }
-
-    .menu-rel {
-      height: 50px;
-    }
     .portfolio-titulo {
         width: 98%;
     }
