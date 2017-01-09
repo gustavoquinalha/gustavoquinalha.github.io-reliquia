@@ -2,11 +2,6 @@
     margin: 0 auto;
     padding: 0;
 }
-a {
-    color: #2b2929;
-    text-decoration: none;
-}
-
 html, body {
   background: #f9f9f9
 }
@@ -14,6 +9,35 @@ html {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
 }
+a {
+    color: #2b2929;
+    text-decoration: none;
+}
+.object-fit_fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-fit_contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-fit_cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fit_none {
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+.object-fit_scale-down {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
 .hello {
 stroke-width: 1px;
 stroke-dasharray: 1000;
@@ -34,8 +58,42 @@ animation: 5s write;
     flex-grow: 1!important;
 }
 .size {
-    width: 90%;
+  width: 1100px;
+  max-width: 90%;
 }
+
+.newflex {
+  width: 1300px;
+  max-width: 95%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:flex-start;
+  align-content:flex-start;
+}
+.ghq {
+  flex-grow: 1;
+  flex-basis: 400px;
+  height: 400px;
+  overflow: hidden;
+  border:2px solid #F9F9F9
+}
+.apa {
+  background: black;
+  flex-basis: 400px;
+  height: 400px;
+  overflow: hidden;
+  z-index: 9;
+display: none
+}
+.ghq:hover .apa {
+display: block
+}
+.cover {
+width: 100%;
+  object-fit: cover!important;
+  }
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -45,11 +103,8 @@ animation: 5s write;
     align-items: stretch!important;
     align-content: space-around;!important;
 }
-.flex-item {
-    flex-grow: 1;
-}
+
 .portfolio {
-    background: #fff;
     width: 400px;
     max-width: 100%;
     max-height: 400px;
@@ -95,6 +150,7 @@ animation: 5s write;
     margin: 0 auto;
     margin-bottom: 0!important;
 }
+
 
 .linksi {
   padding-top: 30px;
@@ -391,8 +447,8 @@ animation: 5s write;
 .titulo-categoria {
   width: 100%;
   text-align: left;
-  font-size: 20px;
-  padding-bottom: 10px;
+  font-size: 16px;
+  padding-top: 20px;
   opacity: 0.9;
 }
 
@@ -782,12 +838,12 @@ form {
   height: 100%;
   padding-top: 50%;
   display: none;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
   font-weight: 900;
   transition: 1s
 }
 
-.portfolio:hover .portitu {
+.ghq:hover .portitu {
   display: block;
 }
 
