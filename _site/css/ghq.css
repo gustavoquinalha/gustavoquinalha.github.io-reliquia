@@ -234,7 +234,7 @@ width: 100%;
     text-transform: uppercase;
     color: #383535;
     transition: 0.5s;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 900;
 }
 .es {
@@ -392,7 +392,7 @@ width: 100%;
 
 }
 .post-date{
-    font-size: 14px;
+    font-size: 16px;
     opacity: 0.7;
     padding: 0;
     margin:0;
@@ -481,8 +481,6 @@ width: 100%;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 1px solid #9b9999;
-  box-shadow: 1px 1px 5px 0px #7c7b7b
 }
 
 .ptopo2 {
@@ -553,7 +551,12 @@ hr {
 }
 
 .exp-cont-titulo data{
-  font-size: 10px;
+  font-size: 14px;
+}
+
+.exp-cont-titulo span{
+  font-size: 14px!important;
+font-weight: 200
 }
 .h {
   margin-bottom: 20px;
@@ -563,6 +566,7 @@ hr {
   color: #666666;
   font-weight: bold;
   padding-bottom: 5px;
+font-size: 22px;
 }
 
 .exp-cont {
@@ -613,7 +617,7 @@ hr {
 
 .sobre {
   margin-bottom: 50px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .localcont {
@@ -648,7 +652,7 @@ hr {
 }
 
 .proj-nome {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 900;
   line-height: 0.8;
   padding-top: 10px;
@@ -755,7 +759,6 @@ form {
   padding-bottom: 20px;
   padding-top: 20px;
   margin-bottom: 20px;
-  border: 1px solid #eae8e8
 }
 
 .lefc {
